@@ -5,7 +5,8 @@ with open("requirements.txt") as f:
 	install_requires = f.read().strip().split("\n")
 
 # get version from __version__ variable in formsnext/__init__.py
-from formsnext import __version__ as
+from formsnext import __version__ as version
+
 setup(
 	name='formsnext',
 	version=version,
